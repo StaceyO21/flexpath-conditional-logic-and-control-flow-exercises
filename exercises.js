@@ -39,8 +39,11 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+let x = 2;
+let y = 5;
 
+let greaterNum = (x > y);
+console.log(greaterNum);
   // CODE IN THE OPEN LINES ABOVE
 }
 
