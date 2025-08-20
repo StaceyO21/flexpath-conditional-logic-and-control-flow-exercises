@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_10();
+  exercise_17();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -287,9 +287,8 @@ function exercise_11() {
   */
 
   // CODE IN THE OPEN LINES BELOW
-
-  const placeholder = "Delete this line of code and write your code here";
-
+let remainder = 20 % 6;
+console.log(remainder);
   // CODE IN THE OPEN LINES ABOVE
 }
 
@@ -308,8 +307,8 @@ function exercise_12() {
   */
 
   // CODE IN THE OPEN LINES BELOW
-
-  const placeholder = "Delete this line of code and write your code here";
+let exponent = 2 ** 3;
+console.log(exponent);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -329,9 +328,13 @@ function exercise_13() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let num = 5;
+num++;
+console.log(num);
 
-  const placeholder = "Delete this line of code and write your code here";
-
+num--;
+num--;
+console.log(num);
   // CODE IN THE OPEN LINES ABOVE
 }
 
@@ -349,9 +352,12 @@ function exercise_14() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let score = 22;
+score += 14;
+console.log(score);
 
-  const placeholder = "Delete this line of code and write your code here";
-
+score -= 7;
+console.log(score);
   // CODE IN THE OPEN LINES ABOVE
 }
 
@@ -373,8 +379,13 @@ function exercise_15() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let savings = 505;
+savings *= 1.08;
+console.log(savings);
 
-  const placeholder = "Delete this line of code and write your code here";
+let savings1 = 600;
+savings1 /= .5;
+console.log(savings1);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -392,8 +403,10 @@ function exercise_16() {
   */
 
   // CODE IN THE OPEN LINES BELOW
-
-  const placeholder = "Delete this line of code and write your code here";
+let empty = "";
+if (!empty){
+  console.log("An empty string is falsy");
+}
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -414,8 +427,13 @@ function exercise_17() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let truthy = "false";
 
-  const placeholder = "Delete this line of code and write your code here";
+if (!truthy){
+  console.log("The string is falsy")
+} else {
+  console.log("The string is not falsy")
+}
 
   // CODE IN THE OPEN LINES ABOVE
 }
