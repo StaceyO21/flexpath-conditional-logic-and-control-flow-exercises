@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_17();
+  exercise_21();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -453,9 +453,12 @@ function exercise_18() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let myO = {};
+let yourO = myO;
 
-  const placeholder = "Delete this line of code and write your code here";
-
+if(myO === yourO){
+  console.log("yep!");
+}
   // CODE IN THE OPEN LINES ABOVE
 }
 
@@ -473,9 +476,10 @@ function exercise_19() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let obj1 = (undefined == null);
+let obj2 = (undefined === null);
 
-  const placeholder = "Delete this line of code and write your code here";
-
+console.log(obj1, obj2);
   // CODE IN THE OPEN LINES ABOVE
 }
 
@@ -495,8 +499,21 @@ function exercise_20() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let fruitColor = "Green";
 
-  const placeholder = "Delete this line of code and write your code here";
+switch (fruitColor) {
+  case 'red':
+  console.log("Apple");
+  break;
+
+  case 'yellow':
+    console.log("Banana");
+    break;
+
+    default:
+      console.log("Unknown fruit");
+}
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -518,9 +535,15 @@ function exercise_21() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let num = (-42);
 
-  const placeholder = "Delete this line of code and write your code here";
-
+if(num > 0) {
+  console.log("Positive");
+} else if (num < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
   // CODE IN THE OPEN LINES ABOVE
 }
 
