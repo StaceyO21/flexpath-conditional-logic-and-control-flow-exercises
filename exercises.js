@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_21();
+  exercise_24();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -565,8 +565,10 @@ function exercise_22() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let age = 20;
 
-  const placeholder = "Delete this line of code and write your code here";
+let canVote = (age >= 18) ? "Yes, can vote" : "No, too young";
+console.log(canVote);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -594,8 +596,14 @@ function exercise_23() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let isProgramMember = 'true';
+let age = 75;
 
-  const placeholder = "Delete this line of code and write your code here";
+if ((isProgramMember === true) && (age < 14) || (age > 65)){
+  console.log("Eligible for special renewal discount");
+} else {
+  console.log("Not eligible for special renewal discount");
+}
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -614,8 +622,20 @@ function exercise_24() {
   */
 
   // CODE IN THE OPEN LINES BELOW
+let day = "Saturday";
 
-  const placeholder = "Delete this line of code and write your code here";
+switch (day){
+  case "Monday":
+  case "Tuesday":
+  case  "Wednesday":
+  case   "Thursday":
+  case    "Friday":
+    console.log("Weekday");
+    break;
+
+    default:
+      console.log("Weekend");
+}
 
   // CODE IN THE OPEN LINES ABOVE
 }
